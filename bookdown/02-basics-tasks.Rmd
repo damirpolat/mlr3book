@@ -1,7 +1,7 @@
 ## Tasks {#tasks}
 
 Tasks are objects that contain the data and additional meta-data for a machine learning problem.
-The meta-data is for example the name of the target variable (the prediction) for supervised machine learning problems, or the type of the dataset (e.g. a _spatial_ or _survival_).
+The meta-data is, for example, the name of the target variable (the prediction) for supervised machine learning problems, or the type of the dataset (e.g. a _spatial_ or _survival_).
 This information is used for specific operations that can be performed on a task.
 
 ### Task Types {#tasks-types}
@@ -21,7 +21,7 @@ To create a task from a `r ref("data.frame()")` or `r ref("data.table()")` objec
 <br/>→ `TaskOrdinal` in add-on package `r gh_pkg("mlr-org/mlr3ordinal")`
 
 **Cluster Task**: An unsupervised task type; there is no target and the aim is to identify similar groups within the feature space.
-<br/>→ Not yet implemented
+<br/>→ `TaskCluster` in add-on package `r gh_pkg("mlr-org/mlr3cluster")`
 
 **Spatial Task**: Observations in the task have spatio-temporal information (e.g. coordinates).
 <br/>→ Not yet implemented, but started in add-on package `r mlr_pkg("mlr3spatiotemporal")`
