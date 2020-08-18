@@ -2,5 +2,8 @@
 
 This is a draft for clustering sub-chapter.
 
+Cluster analysis is a type of unsupervised machine learning where the goal is to find patterns within the data by grouping them into clusters where each cluster contains similar observations. 
+The similarity is based on specified metrics that are task and application dependent. 
+
 The development is mostly done but the feedback and comments are always welcome
 Check out `r gh_pkg("mlr-org/mlr3cluster")` if you are interested!

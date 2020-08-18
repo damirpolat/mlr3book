@@ -59,9 +59,9 @@ Subsequently, the sub-chapter contains instructions on how to modify cost sensit
 **Cluster Analysis**
 
 Cluster analysis works with data without any labels (unsupervised learning).
-The goal of the cluster analysis is to find patterns within the data by grouping them into clusters where each 
-cluster contains similar observations. 
+The goal of the cluster analysis is to find patterns within the data by grouping them into clusters where each cluster contains similar observations. 
 
-The work is still in progress, but most of the functionality 
-is already implemented in the package. See [mlr3cluster](https://github.com/mlr-org/mlr3cluster) for the 
-current state. 
+The work is still in progress, but most of the functionality is already implemented in the package. 
+See [mlr3cluster](https://github.com/mlr-org/mlr3cluster) for the current state. 
+
+The sub-chapter on [clustering](#cluster) contains detailed instructions on how to perform cluster analysis in mlr3. 
